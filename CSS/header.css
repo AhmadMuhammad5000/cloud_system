@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #fff;
+    padding: 0.2%;
+}
+
+h2{
+    font-size: 25px;
+    color: blue;
+}
+
+i {
+    color: blue;
+}
+
+ul li {
+    list-style: none;
+    font-size: 19px;
+
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header .ul {
+    display: flex;
+    gap: 2%;
+    justify-content: left;
+    align-items: center;
+}
